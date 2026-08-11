@@ -9,11 +9,11 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "lint": "eslint . && stylelint 'app/**/*.vue'",
+    "lint": "eslint . && stylelint 'app/**/*.{vue,css}'",
     "lint:js": "eslint .",
     "lint:js:fix": "eslint . --fix",
-    "lint:style": "stylelint 'app/**/*.vue'",
-    "lint:style:fix": "stylelint 'app/**/*.vue' --fix"
+    "lint:style": "stylelint 'app/**/*.{vue,css}'",
+    "lint:style:fix": "stylelint 'app/**/*.{vue,css}' --fix"
   },
   "dependencies": {
     "@tresjs/cientos": "^5.8.1",

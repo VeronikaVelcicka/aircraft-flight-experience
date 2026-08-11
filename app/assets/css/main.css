@@ -1,0 +1,12 @@
+/* Design tokens shared across scoped component styles. Colors that need a
+   variable alpha (borders, glows, tints) are stored as space-separated RGB
+   channels so callers compose them with `rgb(var(--color-accent-rgb) / X%)`. */
+:root {
+  --color-accent-rgb: 0 255 255;
+  --color-surface: #12161e;
+  --color-text: #fff;
+  --font-mono: monospace;
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+}
